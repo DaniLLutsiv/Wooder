@@ -1,0 +1,57 @@
+.Body{
+	position: relative;
+	display: flex;
+	margin-bottom: 280px;
+	height: 400px;
+}
+
+.imgContainer , .Text{
+	width: 50%;
+	height: 400px;
+}
+
+.img{
+	width: 100%;
+	height: auto;
+	filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+}
+@media (max-width: 1000px) {
+	.Body{
+		margin-bottom: 150px;
+	}
+}
+@media (max-width: 750px) {
+	.Body{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		height: 600px;
+	}
+	.Text{
+		width: 100%;
+		margin: 0 auto;
+		height: 200px;
+	}
+	.imgContainer {
+		width: 90%;
+		margin: 0 auto;
+		height: 400px;
+	}
+}
+@media (max-width: 500px) {
+	.Body{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		height: 500px;
+	}
+	.imgContainer {
+		width: 90%;
+		margin: 0 auto;
+		height: 200px;
+	}
+}
+
+
+
+

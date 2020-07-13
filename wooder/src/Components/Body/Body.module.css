@@ -1,0 +1,30 @@
+.Body{
+	width: 62.5%;
+	margin-left: 18.75%;
+	margin-top: 90px;
+}
+.RotLine{
+	transform: rotate(90deg);
+	
+}
+.Line{
+	margin-left: 79.6875%;
+	margin-top: -180px;
+
+	height: 4px;
+	width: 51px;	
+}
+@media (max-width: 1000px) {
+	.Body{
+		margin: 0 auto;
+		width: 80%;
+		margin-top: 90px;
+	}
+	.Line{
+		margin-left: 79.6875%;
+		margin-top: -100px;
+
+		height: 4px;
+		width: 51px;	
+	}
+}

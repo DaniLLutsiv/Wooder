@@ -1,0 +1,32 @@
+.block:not(:first-child):not(:last-child){
+	margin-right: 4.1%;
+	margin-left: 4.1%;
+}
+.block{
+	width: 28%;	
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.round{
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+	border: 1px solid #e3e3e3;
+}
+.block img{
+	width: 90.37%;
+	height: 90.37%;
+	margin: 4.5%;
+	height: auto;
+}
+.text{
+	font-weight: 600;
+	font-size: 16px;
+}
+.Line{
+	margin: 0 auto;
+	width: 25px;
+	margin-top: 22px;
+	margin-bottom: 14px;
+}

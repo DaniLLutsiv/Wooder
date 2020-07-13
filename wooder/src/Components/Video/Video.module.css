@@ -1,0 +1,148 @@
+.sectionV{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-height: 580px;
+}
+
+.block{
+	position: absolute;	
+	top: 10%;
+	left: 9.375%;
+	height: 80%;
+	width: 81.25%;
+	border: 1px solid #bea67c;
+}
+.img{
+	height: auto;
+	z-index: -1;
+	width:100%;
+	height: auto;
+	min-height: 600px;
+}
+
+.watch{
+	width: 320px;
+	height: 54px;
+	border: 1px solid white;
+	margin-top: 45px;
+
+}
+.Watch_body{
+	height: 26px;
+	margin-top: 14px;
+	margin-left: 20%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.watch_text{
+	font-size: 19px;
+	margin-left: 15px;
+
+	text-transform: uppercase;
+
+	
+}
+.body{
+	text-align: left;
+	position: relative;
+	margin-top: 10vw;
+	margin-left: 12.82%;
+	margin-right: 42.307%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 60%;
+	width: ;
+	height:;	
+	margin-top:;
+}
+.Message{
+	width: 500px;
+	color: #fff;
+}
+.Name{
+	height: 120px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	color: #bea67c;
+	font-size: 48px;
+	font-weight: bold;
+	
+}
+.text{
+	font-size: 15px;
+}
+
+.Line{
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.Line:not(:last-child){
+	margin-bottom: 138px;
+}
+.Line:not(:first-child){
+	margin-left: 100px;
+}
+
+@media (min-width: 2000px) {
+	.body{
+		height: 500px;
+	}
+	.Message{
+		width: 700px;
+	}
+	.Name{
+		font-size: 60px;
+		height: 150px;
+	}
+	.text{
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 1356px) {
+	.Name{
+		font-size: 35px;
+	}
+}
+@media (max-width: 1244px) {
+	.body{
+		margin-top: 60px;
+	}
+
+}
+@media (max-width: 700px){
+	.Lines{
+		width: 0;
+		opacity: 0;
+	}
+}
+@media (max-width: 500px){
+	.Lines{
+		width: 0;
+		opacity: 0;
+	}
+	.Message{
+		width: 100%;
+	}
+	.body{
+		width: 90%;
+		margin-left: 5%;
+	}
+	.Name{
+		font-size: 25px;
+		height: 70px;	
+	}
+	.watch{
+		width: 250px;
+		margin: 45px auto 0 auto;
+	}
+
+}
