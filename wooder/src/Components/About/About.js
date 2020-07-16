@@ -1,11 +1,13 @@
 import React from 'react';
 import classes from './About.module.css';
 import Line from '../Line/Line';
+import '../../App.css';
+
 
 const About = () =>{
 	let Strlenght = getComputedStyle(document.body).width;
 	let Width = Number(Strlenght.substring(0, Strlenght.length - 2)); 
-	return <section>
+	return <section  id="section3">
 		<div className={classes.block}>
 			<div className={classes.img}>
 				<img src={'/images/WOODER-Free-PSD-Template_03_03.png'}/>

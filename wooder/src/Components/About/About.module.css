@@ -31,6 +31,10 @@
 .Learn{
 	display: block;
 }
+.Learn_text:hover{
+	font-size: 18px;
+	transition: 0.5s;
+}
 .Name{
 	font-size: 2.5vw;
 	margin-bottom: 10px;
@@ -92,5 +96,10 @@
 	}
 	.block{
 		max-height: 400px;
+	}
+}
+@media (max-width: 425px){
+	.Name{
+		font-size: 25px;
 	}
 }

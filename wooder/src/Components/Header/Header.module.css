@@ -12,7 +12,11 @@
 	color: #a6a6a6;
 	font-size: 15px;
 	width: 100%;
+	z-index: 1;
+	transition: 1s;
 }
+
+
 .Big_line{
 	margin-top: 9px;
 	height: 4px;
@@ -26,6 +30,8 @@
 	background-color: #bea67c;
 	margin-bottom: 9px;
 }
+
+
 .HeaderUl{
 	margin-left: 14.85%;
 	width: 20.83%;
@@ -37,12 +43,15 @@
 .HeaderUl li:not(:last-child){
 	margin-right: 29.75%;
 }
+
+
 .Header_menu{
 	margin-left: 27px;
 	display: flex;
 }
 .Header_menu_text{
 	margin-left: 12px;
+	color: #a6a6a6;
 }
 .Header_circle{
 	height: 23px;
@@ -56,6 +65,15 @@
 	margin-left: 2.7%;
 	margin-right: 5px;
 }
+
+@media (max-width: 1025px ) {
+	.HeaderUl{
+		width: 30%;
+	}
+}
+
+
+
 @media (max-width: 1025px ) {
 	.HeaderUl{
 		margin-left: 10%;
@@ -79,9 +97,10 @@
 	.Big_line{
 		width: 0;
 		opacity: 0;
+		display: none;
 	}
 	.HeaderUl{
-		margin-left: 4.85%;
+		margin-left: 20.85%;
 		width: 40%;
 	}
 	.HeaderUl li:not(:last-child){
@@ -119,3 +138,67 @@
 	}
 
 }
+
+@media (max-width: 425px) {
+	
+	.HeaderUl li{
+		display: none;
+		
+	}
+	.Big_line{
+		display: none;
+	}
+	
+	
+}
+.Header_menuNEW{
+	margin-left: 27px;
+	margin-top: 50px;
+	z-index: 3;
+	display: flex;
+}
+.HeaderNEW{
+	z-index: 2;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	transition: 1s;
+}
+.HeaderUlNEW{
+	position: absolute;
+	height: 400px;
+	margin-top: 100px;
+	margin-left: 0;
+	width: 100%;
+	z-index: 3;
+}
+.HeaderUlNEW li{
+	display: block;
+	margin-right: 0;
+	height: 40px;
+	font-size: 30px;
+	color: #a6a6a6;
+	width: 40%;
+	margin-left: 30%;
+}
+.HeaderUlNEW li:not(:last-child){
+	margin-right: 0%;
+	margin-bottom: 20px;
+}
+.HeaderUlNEW li:hover{
+	border: 1px solid #a6a6a6;
+}
+.Big_lineNEW{
+	display: none;
+}
+
+.Header_arrowNEW{
+	display: none;
+}
+.Header_circleNEW{
+	display: none;
+}
+

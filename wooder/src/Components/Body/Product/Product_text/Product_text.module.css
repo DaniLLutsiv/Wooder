@@ -26,6 +26,10 @@
 	font-weight: bold;
 	margin-bottom: 5px;
 }
+.Learn_text:hover{
+	font-size: 18px;
+	transition: 0.5s;
+}
 .Learn{
 	display: block;
 }
@@ -54,6 +58,7 @@
 	display: block;
 	margin-top: 40px;
 }
+
 @media (max-width: 750px) {
 	.Product_text_L , .Product_text_R{
 		height: 200px;

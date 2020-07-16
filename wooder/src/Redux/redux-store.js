@@ -3,7 +3,7 @@ import DataReducer from './DataReducer';
 
 
 let reducers = combineReducers({
-	Data: DataReducer,
+	Data: DataReducer
 });
 
 let store = createStore(reducers);

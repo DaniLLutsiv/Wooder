@@ -5,7 +5,7 @@ import Line from '../Line/Line';
 
 const Cover = () =>{
 
-	return <section className={classes.Cover}>
+	return <section className={classes.Cover} id="section1">
 		<div className={classes.body}>		
 			<img className={classes.img} src={Wooder}/>
 			<div className={classes.text}>

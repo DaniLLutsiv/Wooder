@@ -40,3 +40,8 @@
     transform: rotate(360deg);
   }
 }
+li> .active {
+    border-bottom: 1px solid grey;
+}
+
+

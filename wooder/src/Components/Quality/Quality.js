@@ -12,7 +12,7 @@ const Quality = (props) =>{
 				<div className={classes.Line}>
 					<Line width={'44'} height={'4'} backgroundColor={'c0af91'} margin={'20'}/>
 				</div>
-				<div>We create unique design objects made of rare wood, specially under the order. Look at the short video about our work.</div>
+				<div className={classes.text}>We create unique design objects made of rare wood, specially under the order. Look at the short video about our work.</div>
 			</div>
 			<div className={classes.img}>
 				{props.Quality.map(el => <QualityElement src={el.src} key={el.src} text={el.text}/>)}

@@ -10,7 +10,7 @@ const Body = (props) => {
 
 	let BodyElements = props.Product.map( d => <Product src={d.src} key={d.src} 
 		Name={d.Name} text={d.text} number={d.number}/>) 
-	return <section>
+	return <section id="section2">
 			<div className={classes.Body}>
 				{BodyElements}
 			</div>

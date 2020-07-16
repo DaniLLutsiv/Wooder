@@ -15,35 +15,19 @@ let initialState = {
 	Menu: true
 }
 
-const MessageReducer = (state = initialState , action) => {
+const DataReducer = (state = initialState , action) => {
 
 	switch(action.type){
 		case 'HIDE-MENU' :
-		debugger
-		console.log('doschlo')
 		return{
 			...state,
-			Hidemenu: action.bool
-
+			Menu: action.bool
 		}
 		
 
 		default:
 			return state;	
 	} 	
-}
-
-export const newMessageActionCreator = () => {
-	return {
-		type:'NEW-MESSAGE'
-	}
-}
-
-export const onSmsChangeActionCreator = (text) => {
-	return {
-		type:'ON-SMS-CHANGE',
-		Message: text
-	}
 }
 
 export const Hidemenu = (bool) => {
@@ -53,4 +37,4 @@ export const Hidemenu = (bool) => {
 	}
 }
 
-export default MessageReducer;
+export default DataReducer;

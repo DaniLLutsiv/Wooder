@@ -144,5 +144,15 @@
 		width: 250px;
 		margin: 45px auto 0 auto;
 	}
+}
 
+@media (max-width: 425px){
+	.watch{
+		width: 200px;
+		margin: 45px auto 0 auto;
+	}
+	.watch_text{
+		font-size: 15px;
+		margin-top: 5px;
+	}
 }
