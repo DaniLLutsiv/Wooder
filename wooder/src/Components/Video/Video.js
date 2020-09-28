@@ -24,7 +24,7 @@ const Video = (props) =>{
 					<div className={classes.watch}>
 						<div className={classes.Watch_body}>
 							<img src={`/images/play_07.png`}/>
-							<div className={classes.watch_text} onClick={ () => {alert('syk')}}>Watch video</div>
+							<div className={classes.watch_text} onClick={ () => {alert('video')}}>Watch video</div>
 						</div>
 					</div>
 				</div>
